@@ -1,5 +1,5 @@
 //
-//  ContentViewModel.swift
+//  UserDefaultsViewModel.swift
 //  PersistantStorageUserDefKeyChain
 //
 //  Created by Manan Patel on 2024-09-02.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-class UserDefaultsView {
+class UserDefaultsViewModel {
     init() {
         let path = NSSearchPathForDirectoriesInDomains(.libraryDirectory, .userDomainMask, true)[0]
         
